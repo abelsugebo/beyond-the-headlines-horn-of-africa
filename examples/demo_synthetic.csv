@@ -1,0 +1,17 @@
+record_id,published_date,country,source_type,source_name,title,url,primary_theme,humanitarian_mentioned,cross_border,narrative_frame,underlying_source,release_approved,synthetic_demo,coder_notes,actor_mentions,external_actor_mentions,external_involvement_type,claim_evidence_status,claim_attributed_to
+DEMO-001,2026-10-02,Ethiopia,media,Demo News A,SYNTHETIC: Situation overview,,conflict,yes,no,security-first,DEMO-UPSTREAM-1,yes,true,Invented testing row only,,,none,not_applicable,
+DEMO-002,2026-10-02,Ethiopia,media,Demo News B,SYNTHETIC: Overview repeats report,,humanitarian,yes,yes,civilian-impact,DEMO-UPSTREAM-1,yes,true,Invented testing row only,,,none,not_applicable,
+DEMO-003,2026-10-06,Sudan,media,Demo News A,SYNTHETIC: Displacement discussion,,humanitarian,yes,yes,civilian-impact,DEMO-UPSTREAM-2,yes,true,Invented testing row only,,,none,not_applicable,
+DEMO-004,2026-10-06,Sudan,government,Demo Ministry,SYNTHETIC: Official statement,,conflict,no,no,security-first,DEMO-UPSTREAM-3,yes,true,Invented testing row only,,,none,not_applicable,
+DEMO-005,2026-10-09,South Sudan,humanitarian,Demo Agency,SYNTHETIC: Humanitarian access note,,humanitarian,yes,yes,resource-gap,DEMO-UPSTREAM-4,yes,true,Invented testing row only,,,none,not_applicable,
+DEMO-006,2026-10-11,Somalia,media,Demo News C,SYNTHETIC: Drought coverage,,climate,yes,no,climate-shock,DEMO-UPSTREAM-5,yes,true,Invented testing row only,,,none,not_applicable,
+DEMO-007,2026-10-16,Somalia,humanitarian,Demo Agency,SYNTHETIC: Food insecurity note,,humanitarian,yes,no,civilian-impact,DEMO-UPSTREAM-6,yes,true,Invented testing row only,,,none,not_applicable,
+DEMO-008,2026-10-22,Regional,media,Demo News D,SYNTHETIC: Diplomatic note,,diplomacy,no,yes,security-first,DEMO-UPSTREAM-7,yes,true,Invented testing row only,,,none,not_applicable,
+DEMO-009,2026-10-24,Ethiopia,social,Demo Public Institution,SYNTHETIC: Institutional public post,,conflict,unclear,no,security-first,DEMO-UPSTREAM-1,yes,true,Invented testing row only,,,none,not_applicable,
+DEMO-010,2026-10-31,Sudan,media,Demo News C,SYNTHETIC: Reused report,,humanitarian,yes,yes,civilian-impact,DEMO-UPSTREAM-2,yes,true,Invented testing row only,,,none,not_applicable,
+DEMO-011,2026-11-05,South Sudan,media,Demo News B,SYNTHETIC: Elections context,,diplomacy,yes,yes,mixed,,yes,true,Invented testing row only,,,none,not_applicable,
+DEMO-012,2026-11-11,Regional,social,Demo Regional Organization,SYNTHETIC: Regional attention,,economy,yes,yes,mixed,,yes,true,Invented testing row only,,,none,not_applicable,
+DEMO-013,2026-11-03,Eritrea,government,Demo Ministry,SYNTHETIC: Border safety statement,,diplomacy,yes,yes,security-first,DEMO-UPSTREAM-8,yes,true,"Invented example, not a real incident",Demo ministry,Egypt,diplomacy,official_position,
+DEMO-014,2026-11-05,Sudan,media,Demo Reporter,SYNTHETIC: A reported unverified support allegation,,conflict,yes,yes,mixed,DEMO-UPSTREAM-9,yes,true,Invented allegation to test status labeling,Demo armed party,UAE,alleged_armed_support,contested_allegation,Demo publication
+DEMO-015,2026-11-08,Somalia,government,Demo Agency,SYNTHETIC: Mediation announcement,,diplomacy,no,yes,mixed,DEMO-UPSTREAM-10,yes,true,Invented example of diplomacy,,Türkiye,mediation,official_position,
+DEMO-016,2026-11-09,South Sudan,humanitarian,Demo Relief Agency,SYNTHETIC: Cross border relief financing,,humanitarian,yes,yes,resource-gap,DEMO-UPSTREAM-11,yes,true,Invented humanitarian example,,Saudi Arabia,humanitarian_support,attributed_report,

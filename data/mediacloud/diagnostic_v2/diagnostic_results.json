@@ -1,0 +1,80 @@
+{
+  "collection_id": 34412234,
+  "language_filter": null,
+  "start": "2026-10-01",
+  "end": "2026-11-11",
+  "days": 42,
+  "baseline_shared_ids": 1883,
+  "baseline_shared_suspicious_ids": 1867,
+  "denominator_sum": 390949,
+  "queries": {
+    "negative_control": {
+      "matches": 0,
+      "suspicious_domain_counts": {
+        "regional-site-A": 0,
+        "regional-site-B": 0,
+        "regional-site-C": 0
+      },
+      "shared_1883_retained": 0,
+      "suspicious_1867_retained": 0,
+      "suspicious_ids_outside_baseline_block": 0
+    },
+    "ethiopia_single": {
+      "matches": 2258,
+      "suspicious_domain_counts": {
+        "regional-site-A": 792,
+        "regional-site-B": 660,
+        "regional-site-C": 415
+      },
+      "shared_1883_retained": 1883,
+      "suspicious_1867_retained": 1867,
+      "suspicious_ids_outside_baseline_block": 0
+    },
+    "eritrea_single": {
+      "matches": 2012,
+      "suspicious_domain_counts": {
+        "regional-site-A": 792,
+        "regional-site-B": 660,
+        "regional-site-C": 415
+      },
+      "shared_1883_retained": 1883,
+      "suspicious_1867_retained": 1867,
+      "suspicious_ids_outside_baseline_block": 0
+    },
+    "ethiopia_title": {
+      "matches": 82,
+      "suspicious_domain_counts": {
+        "regional-site-A": 0,
+        "regional-site-B": 0,
+        "regional-site-C": 0
+      },
+      "shared_1883_retained": 5,
+      "suspicious_1867_retained": 0,
+      "suspicious_ids_outside_baseline_block": 0
+    },
+    "eritrea_title": {
+      "matches": 22,
+      "suspicious_domain_counts": {
+        "regional-site-A": 0,
+        "regional-site-B": 0,
+        "regional-site-C": 0
+      },
+      "shared_1883_retained": 1,
+      "suspicious_1867_retained": 0,
+      "suspicious_ids_outside_baseline_block": 0
+    }
+  },
+  "single_term_id_intersection": 1976,
+  "first20_shared_ids": 18,
+  "first20_domain_counts": {
+    "ethiopia": {
+      "regional-site-C": 4,
+      "usatoday.com": 2,
+      "regional-site-A": 14
+    },
+    "eritrea": {
+      "regional-site-C": 4,
+      "regional-site-A": 16
+    }
+  }
+}

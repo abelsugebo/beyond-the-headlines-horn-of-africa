@@ -1,0 +1,31 @@
+{
+  "version": "gdelt_attention_baseline_v1",
+  "monitoring_start_utc": "2026-10-01",
+  "monitoring_end_exclusive_utc": "2026-11-12",
+  "countries": {
+    "Ethiopia": "(Ethiopia OR Ethiopian OR Tigray OR Amhara)",
+    "Eritrea": "(Eritrea OR Eritrean OR Asmara)",
+    "Sudan": "(Sudan OR Sudanese OR Darfur OR Kordofan)",
+    "South Sudan": "(\"South Sudan\" OR \"South Sudanese\" OR UNMISS)",
+    "Somalia": "(Somalia OR Somali OR Mogadishu OR Puntland)"
+  },
+  "topic_queries": {
+    "country_mentions": null,
+    "humanitarian_terms": "(humanitarian OR refugee OR refugees OR displaced OR displacement OR hunger OR famine OR malnutrition OR drought OR flooding OR cholera)",
+    "security_terms": "(military OR armed OR fighting OR clashes OR troops OR insurgency OR war OR attacks)"
+  },
+  "primary_language": "all monitored languages",
+  "sensitivity_language": "english",
+  "capture_mode": "timelinevolraw",
+  "smoothing": 0,
+  "manual_precision_audit_required": true,
+  "notes": [
+    "Use matched country-mention articles as denominator for humanitarian-term and security-term shares.",
+    "Query families can overlap: humanitarian plus security are not mutually exclusive and must not be summed.",
+    "Sudan may capture South Sudan articles; Sudan/South Sudan disambiguation requires audit.",
+    "Terms are a text-search proxy for framing, not proof of substantive humanitarian attention.",
+    "Zero article matches, GDELT outages, invalid JSON or missing dates must not become zero attention.",
+    "Global norm covers GDELT-monitored news, not all world media.",
+    "This design does NOT identify underattention relative to humanitarian severity or prove deliberate neglect."
+  ]
+}

@@ -1,0 +1,19 @@
+# Sensitive/private source material should never be pushed
+.env
+*.env
+*.key
+*.pem
+data/raw/
+data/private/
+private/
+notes_private/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+venv/
+# Generated outputs, unless deliberately vetted and selectively staged
+outputs/
+examples/output/*
+!examples/output/.gitkeep

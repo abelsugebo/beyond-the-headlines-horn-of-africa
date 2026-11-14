@@ -1,0 +1,4 @@
+claim_id,as_of_date,core_country,external_actor,other_actor,relationship_type,evidence_status,claim_attributed_to,source_url,response_or_denial,humanitarian_relevance,release_approved,synthetic_demo,notes
+DEMO-REL-1,2026-11-02,Eritrea,Demo State A,Demo State B,diplomacy,official_position,Demo ministry,,,Invented dialogue example,yes,true,Not factual
+DEMO-REL-2,2026-11-03,Sudan,Demo State C,Demo Group D,alleged_armed_support,contested_allegation,Demo outlet,,Demo State C denied the allegation,Invented displaced people example,yes,true,Not factual
+DEMO-REL-3,2026-11-04,Somalia,Demo State E,Demo State F,mediation,official_position,Demo ministry,,,Invented peace process,yes,true,Not factual

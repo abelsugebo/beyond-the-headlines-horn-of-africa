@@ -1,0 +1,27 @@
+{
+  "version": "mediacloud_export_pilot_v1",
+  "monitoring_start_utc": "2026-10-01",
+  "monitoring_end_exclusive_utc": "2026-11-12",
+  "country_queries": {
+    "Ethiopia": "(Ethiopia OR Ethiopian OR Tigray OR Amhara)",
+    "Eritrea": "(Eritrea OR Eritrean OR Asmara)",
+    "Sudan": "(Sudan OR Sudanese OR Darfur OR Kordofan)",
+    "South Sudan": "(\"South Sudan\" OR \"South Sudanese\" OR UNMISS)",
+    "Somalia": "(Somalia OR Somali OR Mogadishu OR Puntland)"
+  },
+  "topics": {
+    "country": "",
+    "humanitarian": "(humanitarian OR refugees OR refugee OR displacement OR displaced OR hunger OR famine OR malnutrition OR drought OR flooding OR cholera)",
+    "security": "(military OR armed OR fighting OR clashes OR troops OR insurgency OR war OR attacks)"
+  },
+  "restrictions": [
+    "Keep identical media collections/sources for all three searches",
+    "Keep identical publication start and end dates and identical provider",
+    "Use a clearly stated language scope (not assumed identical to GDELT)",
+    "Counts refer to Media Cloud-indexed news, not the entire world media",
+    "Do not add humanitarian and security shares, as they overlap",
+    "Missing daily intervals are not automatically zeros",
+    "Sudan may include South Sudan, manually audit precision"
+  ],
+  "fallback_scope": "Pilot Ethiopia, no numerical findings until export files pass validation"
+}

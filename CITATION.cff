@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the article and this repository together."
+title: "Beyond the Headlines: methodology and resources"
+type: dataset
+authors:
+  - family-names: Sugebo
+    given-names: Abel W.
+    affiliation: Inform Africa
+version: "1.0.0"
+date-released: 2026-11-14
+url: "https://informafrica.net/2026/11/14/beyond-the-headlines-how-competing-narratives-obscure-humanitarian-crises-in-the-horn-of-africa/"
+repository-code: "https://github.com/abelsugebo/beyond-the-headlines-horn-of-africa"
+license: MIT

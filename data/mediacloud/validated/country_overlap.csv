@@ -1,0 +1,11 @@
+country_a,country_b,shared_provider_ids
+Ethiopia,Eritrea,1994
+Ethiopia,Sudan,1955
+Ethiopia,South Sudan,7
+Ethiopia,Somalia,1923
+Eritrea,Sudan,1906
+Eritrea,South Sudan,2
+Eritrea,Somalia,1892
+Sudan,South Sudan,133
+Sudan,Somalia,1895
+South Sudan,Somalia,6

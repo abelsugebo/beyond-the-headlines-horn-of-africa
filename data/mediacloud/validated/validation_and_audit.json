@@ -1,0 +1,71 @@
+{
+  "four_country_shared_ids": 1883,
+  "four_country_shared_sources": {
+    "regional-site-C": 415,
+    "regional-site-A": 792,
+    "theconversation.com": 1,
+    "regional-site-B": 660,
+    "usnews.com": 3,
+    "newsday.com": 2,
+    "sfgate.com": 1,
+    "fortune.com": 1,
+    "latimes.com": 1,
+    "inquirer.com": 2,
+    "foxnews.com": 1,
+    "theguardian.com": 1,
+    "newyorker.com": 1,
+    "seattletimes.com": 1,
+    "techradar.com": 1
+  },
+  "country_audits": {
+    "Ethiopia": {
+      "rows": 2398,
+      "languages": {
+        "en": 2381,
+        "es": 15,
+        "la": 1,
+        "id": 1
+      },
+      "duplicate_title_excess": 161
+    },
+    "Eritrea": {
+      "rows": 2021,
+      "languages": {
+        "en": 2008,
+        "es": 12,
+        "id": 1
+      },
+      "duplicate_title_excess": 77
+    },
+    "Sudan": {
+      "rows": 2508,
+      "languages": {
+        "en": 2504,
+        "es": 4
+      },
+      "duplicate_title_excess": 251
+    },
+    "South Sudan": {
+      "rows": 133,
+      "languages": {
+        "en": 133
+      },
+      "duplicate_title_excess": 66
+    },
+    "Somalia": {
+      "rows": 3276,
+      "languages": {
+        "en": 3253,
+        "es": 23
+      },
+      "duplicate_title_excess": 294
+    }
+  },
+  "full_text_precision": "NOT VALIDATED",
+  "source_exclusions": "NONE",
+  "zero_imputation": false,
+  "counts_modified": false,
+  "all_15_daily_denominators_identical": true,
+  "ratio_checks_pass": true,
+  "all_five_country_metadata_exports_reconcile_by_day": true
+}

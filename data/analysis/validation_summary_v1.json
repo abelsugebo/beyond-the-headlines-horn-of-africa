@@ -1,0 +1,21 @@
+{
+  "case_entries": 50,
+  "distinct_x_post_ids": 49,
+  "country_counts": {
+    "Ethiopia": 10,
+    "Eritrea": 10,
+    "Sudan": 10,
+    "South Sudan": 10,
+    "Somalia": 10
+  },
+  "original_X_posts_independently_authenticated": 0,
+  "engagement_metrics_independently_verified": 0,
+  "eligible_for_population_inference": false,
+  "shared_upstream_groups": 4,
+  "exact_duplicate_post_groups": 1,
+  "separate_news_official_discovery_records_not_included": 24,
+  "researcher_attested_x_posts_checked": 49,
+  "researcher_attested_country_case_entries": 50,
+  "researcher_attestation_date": "2026-11-12",
+  "researcher_attestation_scope": "Researcher states every X post checked; post-level detail of check not specified"
+}
