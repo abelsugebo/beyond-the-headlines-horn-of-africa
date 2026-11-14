@@ -17,5 +17,12 @@
   "researcher_attested_x_posts_checked": 49,
   "researcher_attested_country_case_entries": 50,
   "researcher_attestation_date": "2026-11-12",
-  "researcher_attestation_scope": "Researcher states every X post checked; post-level detail of check not specified"
+  "researcher_attestation_scope": "Author reports manually checking all 49 unique X posts underlying 50 country-case entries; exact per-post check steps are not itemized. This is an author attestation, not separate second-researcher re-authentication or second-coder reliability review.",
+  "original_X_posts_independently_authenticated_definition": "This count refers only to separate second-researcher re-authentication; it does not mean the author did not manually check the posts.",
+  "second_researcher_reauthentication": 0,
+  "second_coder_reviewed_frame_assignments": 0,
+  "author_manual_check_attested_unique_x_posts": 49,
+  "author_manual_check_attested_country_case_entries": 50,
+  "author_manual_check_attestation_date": "2026-11-12",
+  "author_manual_check_attestation_scope": "The author stated that each of the 49 unique original X posts was checked; the exact per-post check steps are not itemized in the public record."
 }
