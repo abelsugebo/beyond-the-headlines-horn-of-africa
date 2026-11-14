@@ -1,5 +1,5 @@
 # X candidate comparative coding guide | v1.0
-**Date:** 2026-11-12 | **Researcher:** Abel W. Sugebo | **Status:** provisional analyst annotations, not independently authenticated original X content.
+**Date:** 2026-11-12 | **Researcher:** Abel W. Sugebo | **Status:** the author reports manually checking all 49 unique original X posts (50 country-case entries). No separate second-researcher re-authentication or second-coder reliability review is documented. Frame and temporality coding remains provisional; engagement metrics are unverified.
 
 ## Purpose and permitted inference
 The unit is one **country-case observation** of a candidate X post. The same status ID can appear as two case observations; it must be deduplicated in *unique post counts* but not automatically in country-case coding. The current sample is ten purposefully selected candidates per country. A post can refer to another country and still be included because of the original case-specific collection strategy. Do not infer platform-wide source diversity, volumes, sentiment, neglect, coordination, or reach from this convenience sample.
@@ -45,11 +45,11 @@ Temporality codes deliberately represent different concepts. Do not sum them as 
 - `upstream_source_id` tracks a post's principal source document, institutional statement, or traceable source root. Repeating the same upstream means **not independent evidence**, not necessarily coordinated amplification.
 
 ### Verification
-- `original_x_content_verified=no`: this reviewer did not independently retrieve the complete live post and authenticate its author/text/context.
-- `engagement_metrics_verified=no`: figures supplied by Grok are unverified and unfit for reach comparisons.
+- `original_x_content_verified=no`: in this dataset, this means no separate second-researcher re-authentication of the complete live post is documented. It does **not** mean the author did not inspect the original post; the author reports manually checking all 49 unique statuses (50 country-case entries), as recorded in the attestation below.
+- `engagement_metrics_verified=no`: engagement figures supplied during collection were not independently verified and are not suitable for reach comparisons.
 - `upstream_review_status`: qualification concerning supporting documents, not a validation flag for the X post.
-- `human_coder_reviewed=no`: frame assignments are provisional; author has not adjudicated the code based on authenticated original posts.
-- `candidate_only=yes`: do not describe as a verified empirical platform sample.
+- `human_coder_reviewed=no`: no second coder independently reviewed the primary-frame and humanitarian-temporality assignments; those labels remain provisional. This is separate from the author's manual check of the original posts.
+- `candidate_only=yes`: the posts were purposively selected and are not a representative platform sample. This label does not mean the author failed to inspect the posts.
 
 ## Key source-dependence tests
 
@@ -75,4 +75,4 @@ The tests verify internal consistency, **not the truth of contested events or th
 
 ## Researcher X-post verification attestation (November 12, 2026)
 
-The researcher explicitly stated: **“I have checked each X posts. don't worry.”** This attests a manual check covering the **49 unique original X statuses** underlying 50 case entries. The exact scope of their check was not itemized. The dataset therefore now records **researcher_attested_x_post_checked=yes** for every case entry. This is a separate evidence layer from `original_x_content_verified` (independent reviewer repeat verification) and `engagement_metrics_verified`, both of which remain `no`. The content of real-world claims, conflicting casualty counts, foreign military allegations, and sampling representativeness are **not** established by the fact that the original X post exists. Re-check of every link is no longer a default next step.
+The researcher explicitly stated: **“I have checked each X posts. don't worry.”** This is an author attestation covering the **49 unique original X statuses** underlying 50 country-case entries. The exact per-post check steps were not itemized in the public record. The public validation summary records 49 author-attested manual post checks and 50 country-case entries. This attestation is distinct from (1) a separate second-researcher re-authentication of the original post and (2) independent second-coder review of the analytical labels; neither is documented. Engagement metrics remain unverified. The existence and manual inspection of a post do not establish the truth of its claims, disputed casualty figures, foreign military allegations, or the representativeness of the purposive sample. Re-checking every link is not a default next step.
