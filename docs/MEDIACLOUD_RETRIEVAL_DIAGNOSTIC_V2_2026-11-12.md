@@ -1,6 +1,6 @@
 # Media Cloud retrieval diagnostic, version 2
 
-Research date: November 12, 2026 (America/New_York). Exports retrieved November 13, 2026, 02:07–02:13 UTC. Related: [issue #3](https://github.com/abelsugebo/horn-africa-humanitarian-media-intelligence-2026/issues/3) and [baseline comparative findings](MEDIACLOUD_COMPARATIVE_FINDINGS_2026-11-12.md), baseline commit `a78c38a091f11bd1ef3c8095b60095912cb0766b`.
+Research date: November 12, 2026 (America/New_York). Exports retrieved November 13, 2026, 02:07–02:13 UTC. Public context: [Media Cloud diagnostic history and release decisions](MEDIACLOUD_DIAGNOSTIC_HISTORY.md) and [baseline comparative findings](MEDIACLOUD_COMPARATIVE_FINDINGS_2026-11-12.md), baseline commit `a78c38a091f11bd1ef3c8095b60095912cb0766b`.
 
 ## Conclusion and decision
 
@@ -76,7 +76,7 @@ The baseline files remain at their original paths. This version adds a separate 
 
 ## Remaining work and release threshold
 
-The core nonce and single-term tests requested for this continuation are complete. Issue #3's broader investigation remains open in substance. Separate source-restricted reruns were not performed; this run instead provides complete per-domain ID slices of the unchanged collection, avoiding a change to the specified source universe. These slices are not represented as independent source-restricted query executions.
+The core nonce and single-term tests requested for this continuation are complete. The broader retrieval investigation remains open in substance; its public chronology and current release boundary are summarized in [Media Cloud diagnostic history](MEDIACLOUD_DIAGNOSTIC_HISTORY.md). Separate source-restricted reruns were not performed; this run instead provides complete per-domain ID slices of the unchanged collection, avoiding a change to the specified source universe. These slices are not represented as independent source-restricted query executions.
 
 The critical unresolved requirement is access to the exact indexed extraction and matched-term context for suspicious IDs. A provider investigation could use the preserved IDs, query URLs, timestamps, nonce control, and title diagnostic to compare indexed payloads against publisher body text. No message to Media Cloud was sent. If such text becomes available, code direct, secondary, incidental, and unrelated country relevance separately from body/quotation/boilerplate location and humanitarian/security relevance. Obtain researcher adjudication and assess disagreement before estimating precision or revising counts.
 
