@@ -1,10 +1,10 @@
 # Licensing and reuse
 
-This repository uses **mixed licensing**. The LICENSE-CODE file does not place every repository component under MIT.
+This repository uses **mixed licensing**. The LICENSE-CODE file applies only to the source code described below, not to the repository as a whole.
 
 ## What each licence covers
 
-- **MIT License:** Source code in scripts/ and tests/, as stated in the root LICENSE file.
+- **MIT License:** Source code in scripts/ and tests/, as stated in LICENSE-CODE.
 - **Creative Commons Attribution 4.0 International (CC BY 4.0):** Project-authored documentation, research protocols, query configurations, templates, synthetic examples, and curated aggregate analysis outputs in docs/, config/, data/, and examples/, except where a file says otherwise.
 
 For CC BY 4.0 material, attribute **Abel W. Sugebo / Inform Africa**, identify the repository, and indicate whether changes were made. The licence permits reuse subject to its terms: https://creativecommons.org/licenses/by/4.0/
