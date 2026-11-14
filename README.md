@@ -11,11 +11,13 @@ Research period: October 1 to November 11, 2026. Cases: Ethiopia, Eritrea, Sudan
 | Path | Contents |
 |---|---|
 | `docs/PROTOCOL.md`, `docs/CODEBOOK.md`, `docs/ACTOR_SCOPE.md` | Research protocol, coding scheme and rules for recording external actors |
-| `docs/X_COMPARATIVE_CODING_GUIDE_V1.md` | How the 49 selected X posts (50 country-case entries) were coded, and the limits of that sample |
+| `docs/X_COMPARATIVE_CODING_GUIDE_V1.md` | How the 49 unique X posts (50 country-case entries) were manually checked by the author, coded, and bounded; no second-researcher re-authentication or second-coder review is documented |
 | `docs/MEDIACLOUD_COMPARATIVE_FINDINGS_2026-11-12.md` | The Media Cloud retrieval analysis and quality audit |
 | `docs/MEDIACLOUD_RETRIEVAL_DIAGNOSTIC_V2_2026-11-12.md` | Follow-up diagnostic: control term, single-word and title-only searches |
+| `docs/MEDIACLOUD_DIAGNOSTIC_HISTORY.md` | Public chronology, interpretation and release decisions for the Media Cloud retrieval investigation |
 | `docs/ATTENTION_BASELINE_PROTOCOL_V1.md`, `docs/MEDIACLOUD_FALLBACK_PROTOCOL_V1.md`, `docs/GDELT_PILOT.md`, `docs/COLLECTION_QUERIES.md` | Attention-measurement protocols and the queries used |
 | `docs/ETHICS.md` | Safety, privacy and publication rules |
+| `docs/LICENSING.md` | Exact scope of the repository's mixed code, documentation and data licences |
 | `config/` | Exact query definitions |
 | `scripts/`, `tests/` | Analysis and validation code, with unit tests |
 | `data/mediacloud/timelines/` | The 15 daily attention-over-time exports (42 days each; counts only) |
@@ -41,7 +43,7 @@ are included for transparency but will not run without them.
 
 ## Key limits
 
-- The X posts and source documents were selected purposively. They are not a representative sample and support no claims about platform-wide volume or reach.
+- The author reports manually checking all 49 unique X posts (50 country-case entries). No separate second-researcher re-authentication or second-coder reliability review is documented; frame labels remain provisional. The posts were selected purposively, are not representative, and support no claims about platform-wide prevalence or reach. Engagement metrics were not independently verified.
 - Media Cloud keyword counts are not validated measures of substantive coverage. No country ranking should be derived from the files here.
 - Collection used Media Cloud's United States - National collection (ID 34412234).
 
@@ -54,9 +56,9 @@ python -m unittest discover -s tests
 
 ## Licence and citation
 
-Code is released under the MIT License (see `LICENSE`). Documentation and data
-are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-Please cite the article and this repository together; see `CITATION.cff`.
+Source code in `scripts/` and `tests/` is released under the MIT License (see `LICENSE`). Project-authored documentation, query configurations, templates, synthetic examples and curated aggregate outputs are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The licences do not relicense third-party source material. See `docs/LICENSING.md` for exact scope.
+
+Please cite the article and this repository together; see `CITATION.cff`. The citation metadata omits a single repository-wide licence because the release uses mixed licensing.
 
 AI-assisted tools supported code preparation, data processing and drafting.
 The author is responsible for source selection, verification and conclusions.
