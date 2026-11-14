@@ -1,6 +1,11 @@
 cff-version: 1.2.0
 message: "Please cite the article and this repository together."
 title: "Beyond the Headlines: methodology and resources"
+abstract: >-
+  Mixed-license public companion repository. Source code is under MIT; project-authored
+  documentation, query configurations, templates, synthetic examples and curated
+  aggregate outputs are under CC BY 4.0. Third-party materials are not relicensed.
+  See docs/LICENSING.md for the exact scope.
 type: dataset
 authors:
   - family-names: Sugebo
@@ -10,4 +15,3 @@ version: "1.0.0"
 date-released: 2026-11-14
 url: "https://informafrica.net/2026/11/14/beyond-the-headlines-how-competing-narratives-obscure-humanitarian-crises-in-the-horn-of-africa/"
 repository-code: "https://github.com/abelsugebo/beyond-the-headlines-horn-of-africa"
-license: MIT
