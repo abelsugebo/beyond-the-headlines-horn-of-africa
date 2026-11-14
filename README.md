@@ -56,7 +56,7 @@ python -m unittest discover -s tests
 
 ## Licence and citation
 
-Source code in `scripts/` and `tests/` is released under the MIT License (see `LICENSE`). Project-authored documentation, query configurations, templates, synthetic examples and curated aggregate outputs are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The licences do not relicense third-party source material. See `docs/LICENSING.md` for exact scope.
+Source code in `scripts/` and `tests/` is released under the MIT License (see `LICENSE-CODE`). Project-authored documentation, query configurations, templates, synthetic examples and curated aggregate outputs are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The licences do not relicense third-party source material. See `docs/LICENSING.md` for exact scope.
 
 Please cite the article and this repository together; see `CITATION.cff`. The citation metadata omits a single repository-wide licence because the release uses mixed licensing.
 
