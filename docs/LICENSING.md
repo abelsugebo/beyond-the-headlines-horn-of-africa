@@ -1,6 +1,6 @@
 # Licensing and reuse
 
-This repository uses **mixed licensing**. The root LICENSE file does not place every repository component under MIT.
+This repository uses **mixed licensing**. The LICENSE-CODE file does not place every repository component under MIT.
 
 ## What each licence covers
 
